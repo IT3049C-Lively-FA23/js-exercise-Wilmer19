@@ -40,15 +40,14 @@ function concat(arr1, arr2) {
 // Insert: you should be able to add an item at the specified index of an array
 // hint: use splice and pay attention to the return value
 function insert(arr, item, index) {
-
-  return ;
+  return;
 }
 
 // Square: you should be able to square each number in an array
 // hint: use .map
 // Example: [1,2,4,5] => [1,4,16,25]
 function square(arr) {
-  return ;
+  return arr.map(x => x ** 2);
 }
 
 module.exports = {
