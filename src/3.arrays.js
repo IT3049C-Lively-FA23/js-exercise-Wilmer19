@@ -34,7 +34,7 @@ function truncate(arr) {
 
 // Concat: you should be able to join together two arrays
 function concat(arr1, arr2) {
-  return ;
+  return arr1.concat(arr2);
 }
 
 // Insert: you should be able to add an item at the specified index of an array
