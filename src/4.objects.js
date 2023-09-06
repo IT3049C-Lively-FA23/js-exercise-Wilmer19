@@ -34,14 +34,14 @@ introduction();
 */
 
 const personObject = {
-  first_Name: "Wilmer",
-  last_Name : "Esquivel",
+  first_name: "Wilmer",
+  last_name : "Esquivel",
   class_of: 2024,
-  full_Name : function() {
-    return this.first_Name + " " + this.last_Name;
+  full_name : function() {
+    return this.first_name + " " + this.last_name;
   },
-  introduction : function(full_Name) {
-      return "Welcome! My name is " + full_Name() + " and I'm in the class of " + personObject.class_of + ".";
+  introduction : function(full_name) {
+      return "Welcome! My name is " + this.full_name() + " and I'm in the class of " + this.class_of + ".";
   }
 };
 
